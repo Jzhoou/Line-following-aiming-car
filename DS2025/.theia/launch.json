@@ -1,0 +1,164 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "timx_timer_mode_pwm_edge_sleep_LP_MSPM0G3507_nortos_ticlang",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "timx_timer_mode_pwm_edge_sleep_LP_MSPM0G3507_nortos_ticlang",
+                "resourceId": "/timx_timer_mode_pwm_edge_sleep_LP_MSPM0G3507_nortos_ticlang"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "empty_LP_MSPM0G3507_nortos_ticlang111",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "empty_LP_MSPM0G3507_nortos_ticlang111",
+                "resourceId": "/empty_LP_MSPM0G3507_nortos_ticlang111"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "empty_LP_MSPM0G3507_nortos_ticlang (1)",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "empty_LP_MSPM0G3507_nortos_ticlang",
+                "resourceId": "/empty_LP_MSPM0G3507_nortos_ticlang"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "gpio_input_capture_LP_MSPM0G3507_nortos_ticlang",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "gpio_input_capture_LP_MSPM0G3507_nortos_ticlang",
+                "resourceId": "/gpio_input_capture_LP_MSPM0G3507_nortos_ticlang"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "GPIO_Encoder",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "GPIO_Encoder",
+                "resourceId": "/GPIO_Encoder"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "BJmotor",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "BJmotor",
+                "resourceId": "/BJmotor"
+            }
+        },
+        {
+            "name": "pid",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "pid",
+                "resourceId": "/pid"
+            }
+        },
+        {
+            "name": "tima_timer_mode_periodic_repeat_count_LP_MSPM0G3507_nortos_ticlang",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "tima_timer_mode_periodic_repeat_count_LP_MSPM0G3507_nortos_ticlang",
+                "resourceId": "/tima_timer_mode_periodic_repeat_count_LP_MSPM0G3507_nortos_ticlang"
+            },
+            "connections": [
+                {
+                    "name": "Texas Instruments XDS110 USB Debug Probe",
+                    "cores": [
+                        {
+                            "name": "CORTEX_M0P",
+                            "debuggerSettings": {
+                                "data": "<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"no\" ?>\n<PropertyValues/>\n"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "xj",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "xj",
+                "resourceId": "/xj"
+            }
+        }
+    ]
+}
