@@ -1,0 +1,14 @@
+# CCS build output
+**/Debug/
+**/Release/
+
+# clangd indexes and local compilation databases
+**/.clangd/
+
+# Compiler and linker artifacts
+*.o
+*.out
+*.map
+*.d
+*.idx
+*.crf
